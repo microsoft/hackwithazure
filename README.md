@@ -6,7 +6,7 @@
 
 Using Azure you can run serverless code using [Azure Functions](https://azure.microsoft.com/services/functions/?WT.mc_id=hackwithazure-hackathon-cxa), [host web applications](https://azure.microsoft.com/services/app-service/?WT.mc_id=hackwithazure-hackathon-cxa) and [databases](https://azure.microsoft.com/product-categories/databases/?WT.mc_id=hackwithazure-hackathon-cxa), take advantage of artificial intelligence (AI) through [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=hackwithazure-hackathon-cxa), and create your own machine learning models through [Azure Notebooks](https://notebooks.azure.com/) or powerful [Data Science Virtual Machines (DSVM)](https://azure.microsoft.com/services/virtual-machines/data-science-virtual-machines/?WT.mc_id=hackwithazure-hackathon-cxa).
 
-If you're new to Azure, we have a host of [learning options](learning.md) available to you.
+If you're new to Azure, we have a host of [learning options](./workshops/README.md) available to you.
 
 ## Getting started
 
