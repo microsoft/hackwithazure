@@ -1,6 +1,6 @@
 # az hack
 
-`az hack` is a command-line utility for quickly bootstrapping Azure resources commonly used for a student hack project. By using `az hack create`, you can quickly provision
+`az hack` is a command-line utility for quickly bootstrapping Azure resources commonly used for a student hack project. With `az hack create` you will be able to spin up and configure databases, web hosting, and even artificial intelligence.
 
 ## Provisioned resources
 
