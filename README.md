@@ -21,9 +21,11 @@ You can get started by creating an account on Azure. There's three different opt
 - [Education Hub](https://portal.azure.com/#blade/Microsoft_Azure_Education/EducationMenuBlade/overview) is a "blade" or page on the [Azure Portal](https://portal.azure.com) designed for students. From Education Hub you can access a set of templates to help quickly create resources on Azure, including components for IoT, Blockchain and Bot Services.
 - [az hack create](./az-hack.md) is an [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest) [extension](https://docs.microsoft.com/cli/azure/azure-cli-extensions-overview?view=azure-cli-latest) which can be used to automatically provision several Azure resources, including a web server, database and artificial intelligence. Upon successful creation, [Git deployment](https://docs.microsoft.com/azure/app-service/deploy-local-git) will be enabled, allowing you to deploy your application using tools you're already familiar with.
 
-## Imagine Cup - Bring your project onto the world stage
+## Imagine Cup - Register now and bring your project onto the world stage
 
 [Imagine Cup](https://imaginecup.microsoft.com/?WT.mc_id=hackwithazure-hackathon-cxa) is a global competition for the next generation of students. Team up, and use your creativity, passion, and knowledge of technology to create applications that shape how we live, work, and play. Every year, tens of thousands of students from across the globe compete for cash, travel, and prizes and for the honor of taking home the Imagine Cup!
+
+[Register for Imagine Cup 2020 now!](https://imaginecup.microsoft.com/?WT.mc_id=hackwithazure-hackathon-cxa)
 
 ## Student Resources
 
