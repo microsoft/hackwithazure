@@ -70,6 +70,6 @@ Ok lets `npm run build` and see if it works!
 ## Deployment
 
 Let's deploy site to azure storage as a static site so all your friends can play too
-[Check out the docs on how to host this site for cheap on Azure](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website).
+[Check out the docs on how to host this site for cheap on Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website).
 
 [<- Prev Step](step7.md)
