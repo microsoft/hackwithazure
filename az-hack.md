@@ -17,13 +17,26 @@ All resources are placed in the same [resource group](https://docs.microsoft.com
 
 All generated passwords, keys, and names will be displayed on the screen upon completion of the command. In addition, all values are stored as environmental variables in the website, and can be accessed in your application as such.
 
+> **Note:** To enable an easier-to-read output, use `--output yaml`
+
 > **Note:** You may want to consider using a package such as [Node dotenv](https://www.npmjs.com/package/dotenv), [python-dotenv](https://pypi.org/project/python-dotenv/), [dotenv.net](https://www.nuget.org/packages/dotenv.net/) or [PHP dotenv](https://github.com/vlucas/phpdotenv) to simplify managing environmental variables for your application.
 
 ## Installation
 
-`az hack` is an [Azure Command Line Interface (CLI)](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest) [extension](https://docs.microsoft.com/cli/azure/azure-cli-extensions-overview?view=azure-cli-latest), and is designed to be run locally.
+`az hack` is an [Azure Command Line Interface (CLI)](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest) [extension](https://docs.microsoft.com/cli/azure/azure-cli-extensions-overview?view=azure-cli-latest).
 
-### Installation Steps
+### Cloud shell
+
+1. Navigate to [https://shell.azure.com](https://shell.azure.com) and authenticate
+2. Install the **hack** extension
+
+```azurecli-interactive
+az extension add --name hack
+```
+
+### Local installation
+
+If you wish to use the Azure CLI locally, you can perform the installation by following these steps. Because the Azure CLI is based on Python, it can be installed on any operating system. Note you may need to open a new command or terminal window after installing Python.
 
 1. Install [Python](https://python.org)
 2. Install [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)
