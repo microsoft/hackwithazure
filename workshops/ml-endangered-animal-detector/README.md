@@ -2,7 +2,7 @@
 
 In this 60 min workshop you will create a cloud application that will **help detect endangered animals in the wild**. Being able to analyse the contents of images and act on the information is a great intelligent feature than can enhance your application.
 
-You will build a prototype application infused with intelligence using Azure Platform-as- a-Service (PaaS) offerings such as [Azure Custom Vision service](https://www.customvision.ai), [Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) and [Bonus] [Microsoft PowerApps's](https://docs.microsoft.com/en-us/powerapps/#pivot=home&panel=maker) platforms. By linking these services together you can build reliable, scalable AI applications and get your users testing them as soon as possible.
+You will build a prototype application infused with intelligence using Azure Platform-as- a-Service (PaaS) offerings such as [Azure Custom Vision service](https://www.customvision.ai), [Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-overview) and [Bonus] [Microsoft PowerApps's](https://docs.microsoft.com/powerapps/#pivot=home&panel=maker) platforms. By linking these services together you can build reliable, scalable AI applications and get your users testing them as soon as possible.
 
 # Pre-Requisties for your machine:
 
@@ -20,10 +20,10 @@ You will build a prototype application infused with intelligence using Azure Pla
 # Want to learn more about the services in this project??
 After completing the sample below be sure to check out Microsoft Learn for really great course content that will get you up-skilled in many different technologies. The relevant courses I would recommend after this project to have a look at the below:
 
-* [Classify Images with the Microsoft Custom Vision Service](https://docs.microsoft.com/en-us/learn/modules/classify-images-with-custom-vision-service/?WT.mc_id=build2019-event-amynic)
-* [Introduction to Azure Logic Apps](https://docs.microsoft.com/en-us/learn/modules/intro-to-logic-apps/?WT.mc_id=build2019-event-amynic)
-* [Call an API from a Logic Apps workflow using a custom connector](https://docs.microsoft.com/en-us/learn/modules/logic-apps-and-custom-connectors/?WT.mc_id=build2019-event-amynic)
-* [Lots of different Microsoft PowerApps modules for you to try](https://docs.microsoft.com/en-us/learn/browse/?resource_type=learning%20path&term=powerapps/?WT.mc_id=build2019-event-amynic)
+* [Classify Images with the Microsoft Custom Vision Service](https://docs.microsoft.com/learn/modules/classify-images-with-custom-vision-service/?WT.mc_id=build2019-event-amynic)
+* [Introduction to Azure Logic Apps](https://docs.microsoft.com/learn/modules/intro-to-logic-apps/?WT.mc_id=build2019-event-amynic)
+* [Call an API from a Logic Apps workflow using a custom connector](https://docs.microsoft.com/learn/modules/logic-apps-and-custom-connectors/?WT.mc_id=build2019-event-amynic)
+* [Lots of different Microsoft PowerApps modules for you to try](https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&term=powerapps/?WT.mc_id=build2019-event-amynic)
 
 # Lets get started ...
 
