@@ -48,7 +48,3 @@ The Azure prize is awarded to the team who makes the best use of Azure during a 
 ### What can our team win?
 
 Our prizes vary by hackathon. Visit the Microsoft table at your event to learn more about the prizes at your hack!
-
-### I want to enter my winning hack project into Imagine Cup
-
-The winning team also receives expedited entry into the 2020 Imagine Cup regional finals! Each winning team will have two separate chances to gain entry.
