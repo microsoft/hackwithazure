@@ -137,7 +137,11 @@ git remote add azure <Git url>
 git push -u azure master
 ```
 
-Use the **user name** and **password** you copied earlier when you [created your App Service and Cognitive Services key](#azure-cognitive-services-and-azure-app-services). When deployed, App Services will use Kudu (the magic behind App Services) to install all Python packages listed in **requirements.txt** just as we did previously, and then run **app.py** to start our website. In addition, the values we used in **.env** were already configured on our website by `az hack create`, so we don't need to update our site with the information for Cognitive Services.
+Use the **user name** and **password** you copied earlier when you [created your App Service and Cognitive Services key](#azure-cognitive-services-and-azure-app-services). 
+
+> Note: Keep in mind when pasting in your password to the command or terminal window, it will not display. Copy/paste carefully!
+
+When deployed, App Services will use Kudu (the magic behind App Services) to install all Python packages listed in **requirements.txt** just as we did previously, and then run **app.py** to start our website. In addition, the values we used in **.env** were already configured on our website by `az hack create`, so we don't need to update our site with the information for Cognitive Services.
 
 6. Test your site on Azure
 
