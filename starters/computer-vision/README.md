@@ -110,7 +110,7 @@ flask run
 
 Ready to take show your project to the world? If so, you can use [local Git deployment](https://docs.microsoft.com/azure/app-service/deploy-local-git) to deploy your application. `az hack create` has already configured your project; all we need to do is execute the steps.
 
-1. Stop the running site by returning to the command or terminal window and hitting **Ctl-C** (or **Cmd-C** on a Mac).
+1. Stop the running site by returning to the command or terminal window and hitting **Ctl-C**.
 
 2. Use the same command or terminal window to [initialize the directory as a Git repository](https://git-scm.com/docs/git-init)
 
