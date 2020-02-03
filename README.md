@@ -27,7 +27,8 @@ You can get started by creating an account on Azure. There's three different opt
 
 ## Student Resources
 
-- [Learning paths for students](https://aka.ms/student-learn) - Hands-on learning paths and modules designed for students. Find them on Microsoft Learn at [aka.ms/student-learn](https://aka.ms/student-learn)
+[Learning paths for students](https://aka.ms/StudentsLearn) - Hands-on learning paths and modules designed for students. Find them on Microsoft Learn at [Learning paths for students - aka.ms/StudentsLearn](https://aka.ms/StudentsLearn)
+
 
 - [Microsoft Student Partners](https://imagine.microsoft.com/msp?WT.mc_id=hackwithazure-hackathon-cxa) - We are a community of university students around the world with an interest in technology. Coding is our shared common language. You might find yourself leading your own hackathon, mentoring computer science students, or unlocking the next great idea with your team – it’s all up to you. The program is all about gaining leadership experiences and getting access to resources and develop your technical and career skills. And we have a lot of fun too.
 
