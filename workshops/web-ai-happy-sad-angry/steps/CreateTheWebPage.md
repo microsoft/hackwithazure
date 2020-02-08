@@ -38,7 +38,7 @@ Templates live in a folder called `templates`.
       <h1 id="message"></h1>
 
       <script type="text/javascript">
-        window.addEventListener("DOMContentLoaded", function() {
+        window.addEventListener("DOMContentLoaded", () => {
           var video = document.getElementById('video');
 
           if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
