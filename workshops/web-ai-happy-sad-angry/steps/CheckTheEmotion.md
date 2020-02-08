@@ -95,7 +95,7 @@ The Face Api is available as a Python package.
   ```js
   var message = document.getElementById('message');
 
-  document.getElementById('capture').addEventListener('click', function() {
+  document.getElementById('capture').addEventListener('click', () => {
     var canvas = document.createElement('canvas');
     canvas.width = 640;
     canvas.height = 480;
