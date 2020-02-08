@@ -285,7 +285,7 @@ var message = document.getElementById('message');
 This locates the `h1` HTML element that will be used to show the message by its id.
 
 ```js
-document.getElementById('capture').addEventListener('click', function() {
+document.getElementById('capture').addEventListener('click', () => {
   ...
 });
 ```
