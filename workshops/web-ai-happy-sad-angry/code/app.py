@@ -6,13 +6,11 @@ from msrest.authentication import CognitiveServicesCredentials
 credentials = CognitiveServicesCredentials(os.environ['face_api_key'])
 face_client = FaceClient(os.environ['face_api_endpoint'], credentials=credentials)
 
-emotions = ['anger','contempt','disgust','fear','happiness','sadness','surprise']
+emotions = ['anger','fear','happiness','sadness','surprise']
 
 def best_emotion(emotion):
     emotions = {}
     emotions['anger'] = emotion.anger
-    emotions['contempt'] = emotion.contempt
-    emotions['disgust'] = emotion.disgust
     emotions['fear'] = emotion.fear
     emotions['happiness'] = emotion.happiness
     emotions['neutral'] = emotion.neutral

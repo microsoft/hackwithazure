@@ -38,7 +38,7 @@ Instead of installing it using `pip` from the terminal, it should be configured 
 * Install the packages from the terminal using the following command:
   
   ```sh
-  pip3 install -r requirements.txt
+  pip install -r requirements.txt
   ```
 
   This will install all packages in the `requirements.txt` file, skipping any that are already installed.

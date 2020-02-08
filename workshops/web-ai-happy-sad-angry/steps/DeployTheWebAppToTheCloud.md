@@ -4,11 +4,11 @@ In the [previous step](./CreateTheWebPage.md) created the web page for the game 
 
 ## Running Web Apps in the cloud
 
-In the last step, you ran the Web App on your local computer. This means that you can see the web page, but it is not available to anyone else. To make it available, it needs to run on a computer somewhere that is accessible over the internet. Cloud services allow you to easily deploy your Web Sites to computers running in the cloud. The cloud service available from Microsoft is called [Azure](https://azure.microsoft.com/?WT.mc_id=hackwithazure-github-jabenn).
+In the last step, you ran the Web App on your local computer. This means that you can see the web page, but it is not available to anyone else. To make it available, it needs to run on a computer somewhere that is accessible over the internet. Cloud services allow you to easily deploy your Web Sites to computers running in the cloud. The cloud service available from Microsoft is called [Azure](https://azure.microsoft.com/?WT.mc_id=hackwithazure-hackathon-cxa).
 
 Running web sites used to be a lot of work. You would need to configure a computer connected to the internet, install software to host the web site, connect it to the internet with a domain name, configure security so hackers couldn't break in, and ensure everything is backed up in case of something breaking. For busy sites you might want to configure multiple computers to spread the load, and services to ensure one computer doesn't get overloaded handling requests. Now, thanks to services in the cloud you can just deploy your code and let the cloud provider make everything else work.
 
-Using your Azure subscription, you will be able to deploy your code to the cloud, with Azure managing all the complexities for you using [Azure App Service](https://azure.microsoft.com/services/app-service/?WT.mc_id=hackwithazure-github-jabenn). You configure an App Service and send your code to it, and Azure handles the rest.
+Using your Azure subscription, you will be able to deploy your code to the cloud, with Azure managing all the complexities for you using [Azure App Service](https://azure.microsoft.com/services/app-service/?WT.mc_id=hackwithazure-hackathon-cxa). You configure an App Service and send your code to it, and Azure handles the rest.
 
 ## Deploying to an App Service
 

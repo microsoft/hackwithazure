@@ -19,7 +19,7 @@ The Face Api is available as a Python package.
 * Install the new package from the terminal using the following command:
   
   ```sh
-  pip3 install -r requirements.txt
+  pip install -r requirements.txt
   ```
 
 ## Write the code

@@ -6,15 +6,15 @@ In the [previous step](./DeployTheWebAppToTheCloud.md) deployed your Web App to 
 
 AI, or Artificial Intelligence is where computers can perform tasks normally associated with people, not computers. Computers can learn how to do something, rather than be told how to do it using explicit instructions by writing programs. For example, a computer can be trained how to recognize cats by being shown thousands of images of cats. You can then give it an image it hasn't seen before, and it can tell if there is a cat in the image. This is called Machine Learning or ML. Once taught, the computer builds a model, and this can be re-used by other computers to perform the same task.
 
-You can train Machine Learning models yourself, or you can use models created by others. Microsoft has a range of these pre-trained models available, called [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=hackwithazure-github-jabenn). These models include recognizing images, recognizing speech, or translating between different languages.
+You can train Machine Learning models yourself, or you can use models created by others. Microsoft has a range of these pre-trained models available, called [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=hackwithazure-hackathon-cxa). These models include recognizing images, recognizing speech, or translating between different languages.
 
-One of the models, the [Face Api](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=hackwithazure-github-jabenn), can be used to look for faces in an image. If it finds any, it can guess the emotion shown on the face (happiness, sadness etc.), tell if the person is smiling, look for hair color, facial hair, even estimate the persons age. We can use this Api in our app to look for faces in the uploaded image, and predict the emotion being displayed on each face.
+One of the models, the [Face Api](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=hackwithazure-hackathon-cxa), can be used to look for faces in an image. If it finds any, it can guess the emotion shown on the face (happiness, sadness etc.), tell if the person is smiling, look for hair color, facial hair, even estimate the persons age. We can use this Api in our app to look for faces in the uploaded image, and predict the emotion being displayed on each face.
 
 ## Sign up for a Face Api subscription key
 
 Before you can use the Face Api, you will need a subscription key. You can get this from your Azure account that was used to deploy the web app.
 
-* Open the Azure Portal from [portal.azure.com](https://portal.azure.com/?WT.mc_id=hackwithazure-github-jabenn). Log in if required.
+* Open the Azure Portal from [portal.azure.com](https://portal.azure.com/?WT.mc_id=hackwithazure-hackathon-cxa). Log in if required.
 
 * Select *Create a resource* or select the green plus button.
 
@@ -70,7 +70,7 @@ You should put all your secret keys into the `.env` file, and you should not che
 * Install the new package from the terminal using the following command:
   
   ```sh
-  pip3 install -r requirements.txt
+  pip install -r requirements.txt
   ```
 
 * Create a new file file called `.env`.
