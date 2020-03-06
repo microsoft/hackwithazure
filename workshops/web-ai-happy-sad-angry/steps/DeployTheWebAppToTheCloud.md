@@ -14,56 +14,56 @@ Using your Azure subscription, you will be able to deploy your code to the cloud
 
 You can configure an Azure App Service and deploy your code from inside Visual Studio Code.
 
-* Open the command palette:
-  * On Windows, press Ctrl+Shift+P
-  * On MacOS, press Cmd+Shift+P
+1. Open the command palette:
+  1. On Windows, press Ctrl+Shift+P
+  1. On MacOS, press Cmd+Shift+P
 
-* Select *Azure App Service: Deploy to Web App...*
+1. Select *Azure App Service: Deploy to Web App...*
   
-  ![The command palette showing the Azure App Service: Deploy to Web App option](../images/CommandPaletteDeployAppService.png)
+   ![The command palette showing the Azure App Service: Deploy to Web App option](../images/CommandPaletteDeployAppService.png)
 
-* You will be asked what code you want to deploy. This option will automatically select the folder with your code in it, so select that.
+1. You will be asked what code you want to deploy. This option will automatically select the folder with your code in it, so select that.
 
-  ![The command palette showing the deployment source option](../images/SelectDeployFolder.png)
+   ![The command palette showing the deployment source option](../images/SelectDeployFolder.png)
 
-* If you have never signed into Azure from Visual Studio Code before, you will be asked to sign in.
-  * Select *Sign in to Azure...*
-  * Your browser will be launched, and you can sign in with your Azure account.
-  * Once signed in from the browser, you can close the web page that was launched.
+1. If you have never signed into Azure from Visual Studio Code before, you will be asked to sign in.
+   1. Select *Sign in to Azure...*
+   1. Your browser will be launched, and you can sign in with your Azure account.
+   1. Once signed in from the browser, you can close the web page that was launched.
 
-* Select the Azure subscription you want to use.
+1. Select the Azure subscription you want to use.
   
-  ![The command palette showing the select subscription option](../images/SelectDeploySubscription.png)
+   ![The command palette showing the select subscription option](../images/SelectDeploySubscription.png)
 
-* Select *+ Create New Web App*
+1. Select *+ Create New Web App*
 
-  There are 2 *Create New Web App* options, one marked as *Advanced*. You want the normal one, **not** the *Advanced* one.
+   There are 2 *Create New Web App* options, one marked as *Advanced*. You want the normal one, **not** the *Advanced* one.
 
-  ![The command palette showing the create web app option](../images/CreateNewWebApp.png)
+   ![The command palette showing the create web app option](../images/CreateNewWebApp.png)
 
-* Give your web app a name. This will be part of the public web site address, so needs to be unique across the world. For example, I might use `jimspythonwebapp2019`.
+1. Give your web app a name. This will be part of the public web site address, so needs to be unique across the world. For example, I might use `jimspythonwebapp2019`.
 
-  ![The command palette showing the new web app name option](../images/SelectWebAppName.png)
+   ![The command palette showing the new web app name option](../images/SelectWebAppName.png)
 
-* Select the runtime for your App Service App. This is a Python app, so select the latest version of the Python runtime, such as *Python 3.7*
+1. Select the runtime for your App Service App. This is a Python app, so select the latest version of the Python runtime, such as *Python 3.7*
 
-  ![The command palette showing the select runtime option](../images/SelectPythonRuntime.png)
+   ![The command palette showing the select runtime option](../images/SelectPythonRuntime.png)
 
-* The App Service will start being created. You will see a progress bar on the bottom right, and this will show you once it is complete. You can monitor the progress from the *Output* window by selecting *View -> Output* and selecting *Azure App Service* from the window selector..
+1. The App Service will start being created. You will see a progress bar on the bottom right, and this will show you once it is complete. You can monitor the progress from the *Output* window by selecting *View -> Output* and selecting *Azure App Service* from the window selector..
 
-  ![The create app service progress bar](../images/CreateWebAppProgress.png)
+   ![The create app service progress bar](../images/CreateWebAppProgress.png)
 
-* Some popups wil appear asking if you want to make configuration changes to speed up deployment and always deploy this web app. Select **Yes** for both.
+1. Some popups wil appear asking if you want to make configuration changes to speed up deployment and always deploy this web app. Select **Yes** for both.
   
-  ![The update workspace configuration dialog](../images/UpdateWorkspaceConfigDialog.png)
+   ![The update workspace configuration dialog](../images/UpdateWorkspaceConfigDialog.png)
   
-  ![The always deploy to the web app configuration dialog](../images/AlwaysDeployDialog.png)
+   ![The always deploy to the web app configuration dialog](../images/AlwaysDeployDialog.png)
 
-* A popup will appear showing the deployment progress. You can monitor the progress from the *Output* window by selecting *View -> Output* and selecting *Azure App Service* from the window selector.
+1. A popup will appear showing the deployment progress. You can monitor the progress from the *Output* window by selecting *View -> Output* and selecting *Azure App Service* from the window selector.
   
-  ![The deploy progress dialog](../images/DeployProgress.png)
+   ![The deploy progress dialog](../images/DeployProgress.png)
 
-* Once the code has been deployed, you will be able to view the code over the internet. Launch your browser and open your web site. The address will be `https://<web app name>.azurewebsites.net/`. For example, for my web site this is `https://jimspythonwebapp2019.azurewebsites.net/`. You will see the game page.
+1. Once the code has been deployed, you will be able to view the code over the internet. Launch your browser and open your web site. The address will be `https://<web app name>.azurewebsites.net/`. For example, for my web site this is `https://jimspythonwebapp2019.azurewebsites.net/`. You will see the game page.
 
 > These steps will create a Free tier App Service and deploy your app to it. You can only have one Free tier per subscription, so if you have already got a free app service running, use the *Create New Wep App Advanced* option, and create using a paid tier. Don't forget to delete this after you have finished the workshop to stop using your credits.
 

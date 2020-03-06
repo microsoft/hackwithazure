@@ -14,101 +14,101 @@ Converting a template and data to HTML is called *Rendering*.
 
 Templates live in a folder called `templates`.
 
-* Create a new folder in Visual Studio Code inside your app folder. To do this, select the *New folder* button from the *Explorer* tab.
+1. Create a new folder in Visual Studio Code inside your app folder. To do this, select the *New folder* button from the *Explorer* tab.
   
-  ![The New Folder button](../images/VSCodeNewFolder.png)
+   ![The New Folder button](../images/VSCodeNewFolder.png)
 
-* Name this folder `templates`.
+1. Name this folder `templates`.
 
-* Create a new file in this folder called `home.html`
+1. Create a new file in this folder called `home.html`
 
-* Add the following code to this file:
+1. Add the following code to this file:
 
-  ```html
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Happy, Sad, Angry</title>
-    </head>
-    <body>
-      <h1>Give me your best {{ page_data.emotion }} face</h1>
-      <video id="video" autoplay></video>
-      <br/>
-      <button id="capture">Capture emotion</button>
-      <h1 id="message"></h1>
+   ```html
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <title>Happy, Sad, Angry</title>
+     </head>
+     <body>
+       <h1>Give me your best {{ page_data.emotion }} face</h1>
+       <video id="video" autoplay></video>
+       <br/>
+       <button id="capture">Capture emotion</button>
+       <h1 id="message"></h1>
 
-      <script type="text/javascript">
-        window.addEventListener("DOMContentLoaded", () => {
-          var video = document.getElementById('video');
+       <script type="text/javascript">
+         window.addEventListener("DOMContentLoaded", () => {
+           var video = document.getElementById('video');
 
-          if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-            const getImage = async () => {
-              video.srcObject = await navigator.mediaDevices.getUserMedia({ video: true })
-              video.play();
-            }
-            getImage()
-          }
-        })
-      </script>
-    </body>
-  </html>
-  ```
+           if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+             const getImage = async () => {
+               video.srcObject = await navigator.mediaDevices.getUserMedia({ video: true })
+               video.play();
+             }
+             getImage()
+           }
+         })
+       </script>
+     </body>
+   </html>
+   ```
 
-* Save the file
+1. Save the file
 
-* Open `app.py`
+1. Open `app.py`
 
-* At the start of the file import the `render_template` member from the flask module by adding it to the existing import statement. In addition, add an import for the `random` module.
+1. At the start of the file import the `render_template` member from the flask module by adding it to the existing import statement. In addition, add an import for the `random` module.
   
-  ```python
-  import random
-  from flask import Flask, render_template
-  ```
+   ```python
+   import random
+   from flask import Flask, render_template
+   ```
 
-* Add a list of possible emotions for the player to show below the import statements.
+1. Add a list of possible emotions for the player to show below the import statements.
 
-  ```python
-  emotions = ['anger','contempt','disgust','fear','happiness','sadness','surprise']
-  ```
+   ```python
+   emotions = ['anger','contempt','disgust','fear','happiness','sadness','surprise']
+   ```
 
-  This list of emotions is based off the emotions that can be detected by the Azure Cognitive Services Face API.
+   This list of emotions is based off the emotions that can be detected by the Azure Cognitive Services Face API.
 
-* Replace the `home` function with the following code:
+1. Replace the `home` function with the following code:
   
-  ```python
-  @app.route('/')
-  def home():
-    page_data = {
-      'emotion' : random.choice(emotions)
-    }
-    return render_template('home.html', page_data = page_data)
-  ```
+   ```python
+   @app.route('/')
+   def home():
+     page_data = {
+       'emotion' : random.choice(emotions)
+     }
+     return render_template('home.html', page_data = page_data)
+   ```
 
-* Save the file.
+1. Save the file.
 
 ## Run the code
 
 There are two ways to run this code:
 
-* From the Debug pane of the toolbar, select the green *Start Debugging* button.
+1. From the Debug pane of the toolbar, select the green *Start Debugging* button.
 
-  If you use this method you will be able to set breakpoints and debug your code.
+   If you use this method you will be able to set breakpoints and debug your code.
 
-* From the terminal, run the file as a Flask app using:
+1. From the terminal, run the file as a Flask app using:
   
-  ```sh
-  flask run
-  ```
+   ```sh
+   flask run
+   ```
 
   If you use this method you will not be able to set breakpoints and debug your code.
 
 The Web App will be run, and can be accessed from your device at [http://127.0.0.1:5000](http://127.0.0.1:5000). You will see this URL in the output window, and you can use **ctrl+click** to go directly to this site.
 
-* Open this URL in a web browser to see the game web page. You may be asked for permission for the page to access the camera. If this happens you many want to always allow this to save being asked every time. One the page you will see a random emotion being asked for, and a live feed from your camera.
+1. Open this URL in a web browser to see the game web page. You may be asked for permission for the page to access the camera. If this happens you many want to always allow this to save being asked every time. One the page you will see a random emotion being asked for, and a live feed from your camera.
 
-  ![The game page asking for an emption and showing a feed from the camera](../images/GameWebPageRunningLocally.png)
+   ![The game page asking for an emption and showing a feed from the camera](../images/GameWebPageRunningLocally.png)
 
-* Stop the debugger once you have tested this out.
+1. Stop the debugger once you have tested this out.
 
 ## What does this code do
 
