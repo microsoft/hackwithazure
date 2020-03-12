@@ -24,11 +24,11 @@ Python comes in various versions, and Python apps can use external code in packa
 
 1. Create a new file inside the `HappySadAngry` folder called `app.py`. This is the file that will contain the code for the Flask app, and by creating it the Python extension in Visual Studio Code will be activated. Select the **New File** button in the *Explorer*.
 
-   ![The new file button](../Images/VSCodeNewFile.png)
+   ![The new file button](../images/VSCodeNewFile.png)
 
 1. Name the new file `app.py` and press return
 
-   ![Naming the file app.py](../Images/NameAppPy.png)
+   ![Naming the file app.py](../images/NameAppPy.png)
 
    > You may be prompted to install a Linter. This is a tool that can inspect your code for error as you write it. If a popup appears asking if you want to install this, select **Install**.
 
@@ -42,15 +42,15 @@ Python comes in various versions, and Python apps can use external code in packa
 
 1. A dialog will pop up asking if you want to activate this virtual environment. Select **Yes**.
 
-   ![The virtual environment dialog](../Images/LaunchVirtualEnv.png)
+   ![The virtual environment dialog](../images/LaunchVirtualEnv.png)
 
 1. The existing terminal will not have the virtual environment activated. Close it by selecting the trash can button
 
-   ![The kill terminal button](../Images/KillTerminal.png)
+   ![The kill terminal button](../images/KillTerminal.png)
 
 1. Create a new terminal by selecting *Terminal -> New Terminal*. The terminal will load the virtual environment
 
-   ![The terminal activating the virtual environment](../Images/TerminalWithActivatedEnvironment.png)
+   ![The terminal activating the virtual environment](../images/TerminalWithActivatedEnvironment.png)
 
 ## Install the Flask package
 
