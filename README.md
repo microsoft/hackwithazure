@@ -1,20 +1,14 @@
 # Microsoft Hacks
 
-If this is your first hackathon or your thirty-first, if you're just getting started writing code or have deployed multiple projects, or anywhere in between, we have resources to help you get started!
+If this is your first hackathon or your thirty-first, if you're just getting started writing code or have deployed multiple projects, or anywhere in between, we have resources to help you get started! Choose your path - [localhost](./localhost.md) or [cloud](./cloud.md)
 
-| localhost                                 | cloud                             |
-| ----------------------------------------- | --------------------------------- |
-| [Define localhost hacker](./localhost.md) | [Define cloud hacker](./cloud.md) |
+| [localhost](./localhost.md)                                                                                                                                                                                                                                                                                           | [cloud](./cloud.md)               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| The best place to start writing code is on your own system - localhost! If you're new to development, or looking to add on new languages or frameworks, this is the best place to start. We have a set of resources available to help you get started in creating your first project or even your first line of code! | If you're comfortable writing code and using frameworks, it's time to branch out to the cloud. You can deploy your projects, incorporate AI and ML, create chat bots, and manage databases. Microsoft Azure is a full-service cloud, meaning you have access to a entire suite of available services and functionality. |
 
 ## Getting started
 
-<!-- TODO: Add core CTAs
-    - VS Code
-    - A4S
-    - Docs & Learn
--->
-
-Every hacker needs a toolkit. Here's the three main tools you'll need:
+Every hacker needs a toolkit. Here's the three great tools to get you started:
 
 ### Visual Studio Code
 
@@ -32,6 +26,6 @@ A hackathon is a great time to learn new frameworks and skills. Maybe it's a new
 
 ## Take it to the next level
 
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com) is a community of university students around the world with an interest in technology. Coding is our shared common language. You might find yourself leading your own hackathon, mentoring computer science students, or unlocking the next great idea with your team – it’s all up to you. The program is all about gaining leadership experiences and getting access to resources and develop your technical and career skills. And we have a lot of fun too.
-- Interested in working at Microsoft? Check out the [internship and full time opportunities for students and recent graduates](https://careers.microsoft.com/students/). We have roles for students ranging all the way from first year to Ph.D. candidates.
-- [Imagine Cup](https://imaginecup.microsoft.com/?WT.mc_id=academic-0000-cxa) is a global competition for the next generation of students. Team up, and use your creativity, passion, and knowledge of technology to create applications that shape how we live, work, and play. Every year, tens of thousands of students from across the globe compete for cash, travel, and prizes and for the honor of taking home the Imagine Cup!
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-0000-cxa) is a community of university students around the world with an interest in technology. Coding is our shared common language. You might find yourself leading your own hackathon, mentoring computer science students, or unlocking the next great idea with your team – it’s all up to you. The program is all about gaining leadership experiences and getting access to resources and develop your technical and career skills. And we have a lot of fun too.
+- [Imagine Cup](https://imaginecup.microsoft.com/?WT.mc_id=academic-0000-cxa) is a global competition for the next generation of students. Team up, and use your creativity, passion, and knowledge of technology to create applications that shape how we live, work, and play. Every year, tens of thousands of students from across the globe compete for cash and prizes, and for the honor of taking home the Imagine Cup!
+- Interested in working at Microsoft? Check out the [internship and full time opportunities for students and recent graduates](https://careers.microsoft.com/students/?WT.mc_id=academic-0000-cxa). We have roles for students ranging all the way from first year to Ph.D. candidates.

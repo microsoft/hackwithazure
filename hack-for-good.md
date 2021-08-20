@@ -16,4 +16,4 @@ For more information, you can contact the Microsoft representative at your hacka
 
 ### What can our team win?
 
-Our prizes vary by hackathon. Visit the Microsoft table at your event to learn more about the prizes at your hack!
+Visit the Microsoft table or virtual channel at your event to learn more about the prizes at your hack!
