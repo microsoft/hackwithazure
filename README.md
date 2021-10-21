@@ -6,6 +6,10 @@ If this is your first hackathon or your thirty-first, if you're just getting sta
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
 | The best place to start writing code is on your own system - localhost! If you're new to development, or looking to add on new languages or frameworks, this is the best place to start. We have a set of resources available to help you get started in creating your first project or even your first line of code! | If you're comfortable writing code and using frameworks, it's time to branch out to the cloud. You can deploy your projects, incorporate AI and ML, create chat bots, and manage databases. Microsoft Azure is a full-service cloud, meaning you have access to a entire suite of available services and functionality. |
 
+## Workshops
+
+During a hackathon you learn by building something with it. We've taken that concept and turned it into 4 [workshops](./workshops.md), each covering a different scenario and technology. The workshops will present you with a series of goals to achieve, during which you'll build out a solution. You can use the project you create and use it as the foundation for your project during the event! Check out the available [workshops](./workshops.md) and start hacking!
+
 ## Getting started
 
 Every hacker needs a toolkit. Here's the three great tools to get you started:
