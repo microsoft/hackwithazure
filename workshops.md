@@ -14,17 +14,17 @@ You will notice the structure is a bit different from normal workshops. In parti
 
 ### The Pet Shelter - web app
 
-[![GitHub repo for the workshop](https://img.shields.io/badge/Pet_shelter_workshop-0078D4?style=for-the-badge&logo=github)](https://github.com/microsoft/hack-workshop-web)
+[![GitHub repo for the workshop](https://img.shields.io/badge/Pet_shelter_workshop-0078D4?style=for-the-badge&logo=github)](https://microsoft.github.io/hack-workshop-web)
 
-[The Pet Shelter](https://github.com/microsoft/hack-workshop-web) is an organization to help rescue dogs find their forever homes. Your team has been asked to create them a website. To start they would like to provide a tool where a user could create a list of all the tasks they need to perform when they adopt a pet, like schedule their first vet appointment or apply for a dog license. Your team will do so by using [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview?WT.mc_id=academic-0000-cxa) for hosting and an already created app template. Your team will also add [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=academic-0000-cxa) to store the data.
+[The Pet Shelter](https://microsoft.github.io/hack-workshop-web) is an organization to help rescue dogs find their forever homes. Your team has been asked to create them a website. To start they would like to provide a tool where a user could create a list of all the tasks they need to perform when they adopt a pet, like schedule their first vet appointment or apply for a dog license. Your team will do so by using [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview?WT.mc_id=academic-0000-cxa) for hosting and an already created app template. Your team will also add [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=academic-0000-cxa) to store the data.
 
 ![A screenshot of the web app showing 2 tasks](./images/pet-shelter.png)
 
 ### Mutt Matcher - IoT app
 
-[![GitHub repo for the workshop](https://img.shields.io/badge/The_Mutt_Matcher_IoT_workshop-0078D4?style=for-the-badge&logo=github)](https://github.com/microsoft/hack-workshop-iot)
+[![GitHub repo for the workshop](https://img.shields.io/badge/The_Mutt_Matcher_IoT_workshop-0078D4?style=for-the-badge&logo=github)](https://microsoft.github.io/hack-workshop-iot)
 
-[The Mutt Matcher](https://github.com/microsoft/hack-workshop-iot) is an IoT device your team has been asked to build by an animal shelter to help identify different dog breeds. They have provided photos of a range of different dog breeds, and your task is to use these pictures to train an AI model that can be used from an IoT device, along with a dashboard to show the identified breed.
+[The Mutt Matcher](https://microsoft.github.io/hack-workshop-iot) is an IoT device your team has been asked to build by an animal shelter to help identify different dog breeds. They have provided photos of a range of different dog breeds, and your task is to use these pictures to train an AI model that can be used from an IoT device, along with a dashboard to show the identified breed.
 
 Your team will work to train an AI model using [Azure Custom Vision](https://customvision.ai), then use it from an IoT device that is managed using [Azure IoT Central](https://docs.microsoft.com/azure/iot-central?WT.mc_id=academic-0000-cxa).
 
@@ -34,9 +34,9 @@ Your team will work to train an AI model using [Azure Custom Vision](https://cus
 
 ### Mutt Matcher - low code mobile app
 
-[![GitHub repo for the workshop](https://img.shields.io/badge/The_Mutt_Matcher_Low_Code_Mobile_App_workshop-0078D4?style=for-the-badge&logo=github)](https://github.com/microsoft/hack-workshop-power-apps)
+[![GitHub repo for the workshop](https://img.shields.io/badge/The_Mutt_Matcher_Low_Code_Mobile_App_workshop-0078D4?style=for-the-badge&logo=github)](https://microsoft.github.io/hack-workshop-power-apps)
 
-[The Mutt Matcher](https://github.com/microsoft/hack-workshop-power-apps) is a mobile app your team has been asked to build by an animal shelter to help identify different dog breeds. They have provided photos of a range of different dog breeds, and your task is to use these pictures to first train an AI model, then build a mobile app that uses this model to identify different breeds in photos taken using the mobile device.
+[The Mutt Matcher](https://microsoft.github.io/hack-workshop-power-apps) is a mobile app your team has been asked to build by an animal shelter to help identify different dog breeds. They have provided photos of a range of different dog breeds, and your task is to use these pictures to first train an AI model, then build a mobile app that uses this model to identify different breeds in photos taken using the mobile device.
 
 Your team will work to train an AI model using [Azure Custom Vision](https://customvision.ai), then use it from a mobile app built using [Microsoft Power Apps](https://powerapps.microsoft.com?WT.mc_id=academic-0000-cxa), a low code developer tool.
 
@@ -44,9 +44,9 @@ Your team will work to train an AI model using [Azure Custom Vision](https://cus
 
 ### Lobe - free and easy ML model training
 
-[![GitHub repo for the workshop](https://img.shields.io/badge/Lobe_workshop-0078D4?style=for-the-badge&logo=github)](https://github.com/microsoft/hack-workshop-lobe)
+[![GitHub repo for the workshop](https://img.shields.io/badge/Lobe_workshop-0078D4?style=for-the-badge&logo=github)](https://microsoft.github.io/hack-workshop-lobe)
 
-[Lobe](https://github.com/microsoft/hack-workshop-lobe) is a free and easy tool for Intel-based Macs and Windows PCs you can use to train image classifier ML models locally, then export them to use in any application. In this workshop you will learn how to use lobe to classify images captured either from your camera, or uploaded to the Lobe app. Once you model is trained, you will test it, export it, then deploy it to a web site.
+[Lobe](https://microsoft.github.io/hack-workshop-lobe) is a free and easy tool for Intel-based Macs and Windows PCs you can use to train image classifier ML models locally, then export them to use in any application. In this workshop you will learn how to use lobe to classify images captured either from your camera, or uploaded to the Lobe app. Once you model is trained, you will test it, export it, then deploy it to a web site.
 
 > Lobe currently doesn't run on macOS devices that use Apple Silicon processors, such as the M1, M1 Pro and M1 Max.
 
