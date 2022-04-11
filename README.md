@@ -40,7 +40,7 @@ A hackathon is a great time to learn new frameworks and skills. Maybe it's a new
 
     - Azure for Student http://aka.ms/azure4students
     - Azure Dev Tool for Teaching http://aka.ms/azuredevtoolsforteaching
-    - Microsoft Learn Student Ambassadors http://aka.ms/studentsambassadors
+    - Microsoft Learn Student Ambassadors http://aka.ms/studentambassadors
     - Microsoft Learn Educators https://aka.ms/MSLELearn
     - Microsoft Learn Educator Center https://aka.ms/educenter
     - Microsoft Research Academic Programs https://aka.ms/researchfaculty
