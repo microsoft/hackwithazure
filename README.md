@@ -33,3 +33,27 @@ A hackathon is a great time to learn new frameworks and skills. Maybe it's a new
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-0000-cxa) is a community of university students around the world with an interest in technology. Coding is our shared common language. You might find yourself leading your own hackathon, mentoring computer science students, or unlocking the next great idea with your team – it’s all up to you. The program is all about gaining leadership experiences and getting access to resources and develop your technical and career skills. And we have a lot of fun too.
 - [Imagine Cup](https://imaginecup.microsoft.com/?WT.mc_id=academic-0000-cxa) is a global competition for the next generation of students. Team up, and use your creativity, passion, and knowledge of technology to create applications that shape how we live, work, and play. Every year, tens of thousands of students from across the globe compete for cash and prizes, and for the honor of taking home the Imagine Cup!
 - Interested in working at Microsoft? Check out the [internship and full time opportunities for students and recent graduates](https://careers.microsoft.com/students/?WT.mc_id=academic-0000-cxa). We have roles for students ranging all the way from first year to Ph.D. candidates.
+
+
+
+## Resources 
+
+    - Azure for Student http://aka.ms/azure4students
+    - Azure Dev Tool for Teaching http://aka.ms/azuredevtoolsforteaching
+    - Microsoft Learn Student Ambassadors http://aka.ms/studentambassadors
+    - Microsoft Learn Educators https://aka.ms/MSLELearn
+    - Microsoft Learn Educator Center https://aka.ms/educenter
+    - Microsoft Research Academic Programs https://aka.ms/researchfaculty
+    - Azure for Education https://aka.ms/azureforeducation
+    - Educator Developer Blog https://aka.ms/faculty
+    - Azure Lab Services https://aka.ms/azurelabservices
+    - GitHub Classroom https://aka.ms/GHclassroom
+    - GitHub Codespaces https://aka.ms/GHCodepaces
+### Learning
+
+    - Web Dev Beginners https://aka.ms/webdev-beginners  
+    - Machine Learning Beginners https://aka.ms/ml-beginners
+    - Data Science Beginners https://aka.ms/datascience-beginners 
+    - IOT beginners Http://aka.ms/iot-beginners
+    - Internship Learning Path on Learn - https://aka.ms/starttechintern
+    - Learn for Students http://aka.ms/learnforstudents
